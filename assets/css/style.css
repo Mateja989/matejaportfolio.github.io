@@ -1,0 +1,701 @@
+* {
+  font-family: Raleway, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+header {
+  width: 77.5%;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+  border-radius: 45px;
+  padding: 15px;
+}
+
+header, .block, .miniblok {
+  background-color: #FFF;
+}
+
+.flex-container, header, #cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+}
+
+#logo h1 {
+  font-size: 24px;
+}
+
+#logo i {
+  color: #6a68a8;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6a68a8;
+}
+
+h2 a {
+  color: #9b9fde;
+}
+
+h3 a {
+  color: #FFF;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+#cover, #work {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#cover {
+  background-image: url(../img/slika2.png);
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#header-text {
+  width: 80%;
+  color: #FFF;
+  font-weight: 700;
+  margin: 13%;
+}
+
+#header-text h2 {
+  font-size: 32px;
+  padding: 10px;
+}
+
+.header2 h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #6a68a8;
+}
+
+.center {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.block {
+  width: 30%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 5px 6px 20px 5px;
+          box-shadow: rgba(0, 0, 0, 0.19) 5px 6px 20px 5px;
+  border-radius: 25px;
+  padding: 5px;
+  text-align: center;
+}
+
+.block i {
+  font-size: 50px;
+  color: #6a68a8;
+  margin: 15px;
+}
+
+.block h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #9b9fde;
+  margin: 5px;
+}
+
+.block p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#work {
+  background-repeat: no-repeat;
+  background-image: url(../img/slika2.png);
+  padding: 20px;
+}
+
+#work h3 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 25px;
+}
+
+#work p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.miniblok {
+  background-color: #FFF;
+  width: 13%;
+  -webkit-box-shadow: #b3afaf 10px 10px;
+          box-shadow: #b3afaf 10px 10px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.miniblok i {
+  font-size: 45px;
+  color: #6a68a8;
+  margin: 10px 15px 40px;
+}
+
+.miniblok h4 {
+  font-size: 18px;
+  color: #9b9fde;
+  margin: 10px;
+}
+
+#me {
+  width: 25%;
+}
+
+#me img {
+  width: 93%;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #6a68a8;
+  -o-border-image: initial;
+     border-image: initial;
+}
+
+#about {
+  width: 65%;
+}
+
+#about h2 {
+  font-size: 20px;
+  color: #9b9fde;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#about p {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+#grey {
+  background-color: #e8e8e8;
+  width: 100%;
+}
+
+.header2 h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #6a68a8;
+}
+
+.projects {
+  width: 45%;
+  margin-bottom: 35px;
+  position: relative;
+  margin-left: 0.5%;
+}
+
+.projects img {
+  width: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 6px 20px 5px;
+          box-shadow: rgba(0, 0, 0, 0.2) 5px 6px 20px 5px;
+  border-radius: 25px;
+}
+
+.slika {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.projects:hover .slika {
+  opacity: 0.3;
+}
+
+.projects:hover .sredina {
+  opacity: 1;
+}
+
+.opis1 {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15%;
+  text-transform: uppercase;
+}
+
+.opis2 {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 3px solid #6a68a8;
+  background-color: #9b9fde;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.sredina {
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 17%;
+  width: 60%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  padding: 10px;
+}
+
+#logovanje {
+  width: 75%;
+}
+
+#ime, #telefon, #mail, #mssg {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 15px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #6a68a8;
+  -o-border-image: initial;
+     border-image: initial;
+}
+
+#mssg {
+  height: 80px;
+}
+
+.submit {
+  width: 30%;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #6a68a8;
+}
+
+footer {
+  background-color: #e8e8e8;
+  text-align: center;
+}
+
+.social ul li {
+  padding: 10px;
+}
+
+.social a {
+  font-size: 20px;
+  color: #6a68a8;
+}
+
+.social p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6a68a8;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1390px) {
+  .miniblok {
+    width: 27%;
+    margin-bottom: 20px;
+  }
+  .miniblok i {
+    margin: 5px;
+  }
+  .miniblok h3 {
+    margin: 5px;
+    font-size: 14px;
+  }
+  .miniblok h5 {
+    padding: 10px;
+  }
+  #me img {
+    border: 5px solid #6a68a8;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  header {
+    border-radius: 30px;
+    padding: 16px;
+  }
+  nav ul li {
+    font-size: 16px;
+  }
+  #logo h1 {
+    font-size: 24px;
+  }
+  #header-text h2 {
+    font-size: 24px;
+  }
+  #header-text p {
+    font-size: 14px;
+  }
+  .block i {
+    margin: 10px;
+    font-size: 40px;
+  }
+  .block p {
+    padding: 5px;
+  }
+  .miniblok {
+    width: 27%;
+    margin-bottom: 20px;
+    height: 210px;
+  }
+  .miniblok i {
+    margin: 5px;
+  }
+  .miniblok h3 {
+    margin: 5px;
+    font-size: 12px;
+  }
+  .flex-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about h2 {
+    font-size: 18px;
+    padding: 15px;
+  }
+  #about p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .projects {
+    margin-bottom: 25px;
+  }
+  #logovanje {
+    width: 80%;
+  }
+  .social ul li, .social p {
+    padding: 5px;
+    font-size: 20px;
+  }
+  #logovanje {
+    width: 80%;
+  }
+  #ime, #telefon, #mail, #mssg {
+    padding: 10px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  header {
+    top: 5%;
+  }
+  #me img {
+    border: 5px solid #6a68a8;
+  }
+  nav ul li {
+    font-size: 14px;
+  }
+  #logo h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 852px) {
+  header {
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #logo h1 {
+    font-size: 20px;
+  }
+  nav ul li {
+    font-size: 14px;
+  }
+  #header-text h2 {
+    font-size: 18px;
+  }
+  #header-text p {
+    font-size: 12px;
+  }
+  .block {
+    width: 80%;
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+  .block i {
+    margin: 5px;
+    font-size: 35px;
+  }
+  .block h3 {
+    font-size: 16px;
+  }
+  .block p {
+    font-size: 10px;
+  }
+  .centar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about h2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  #about p {
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  #me {
+    width: 35%;
+  }
+  #me img {
+    width: 90%;
+  }
+  .projects {
+    width: 80%;
+  }
+  .social p {
+    font-size: 16px;
+  }
+  .miniblok {
+    width: 40%;
+  }
+  .miniblok h4 {
+    font-size: 16px;
+    margin: 10px;
+  }
+  .miniblok i {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .miniblok {
+    width: 40%;
+  }
+  .miniblok i {
+    font-size: 25px;
+  }
+  .miniblok h4 {
+    font-size: 14px;
+  }
+  #about {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #about h2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+  #about p {
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  #work p {
+    font-size: 10px;
+  }
+  #me {
+    width: 45%;
+  }
+  #me img {
+    width: 92%;
+  }
+  .centar2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    top: 3%;
+    left: 3%;
+  }
+  #logo h1 {
+    font-size: 18px;
+    padding: 2px;
+  }
+  nav ul li {
+    font-size: 12px;
+  }
+  #header-text {
+    width: 100%;
+    margin-top: 30%;
+    margin-bottom: 20%;
+  }
+  #header-text p {
+    font-size: 10px;
+  }
+  #header-text h2 {
+    font-size: 14px;
+    padding: 5px;
+  }
+  #work h3, .header2 h2 {
+    font-size: 16px;
+  }
+  .block h3 {
+    font-size: 14px;
+  }
+  .block p {
+    font-size: 10px;
+  }
+  .block i {
+    font-size: 28px;
+  }
+  .miniblok {
+    width: 40%;
+    height: 210px;
+  }
+  .miniblok i {
+    font-size: 28px;
+  }
+  .miniblok h4 {
+    font-size: 14px;
+  }
+  #me {
+    width: 50%;
+  }
+  #about {
+    width: 90%;
+    text-align: center;
+  }
+  #about p {
+    font-size: 12px;
+  }
+  .projects {
+    width: 90%;
+  }
+  #logovanje {
+    width: 90%;
+  }
+  footer i, footer p {
+    font-size: 16px;
+  }
+  .centar2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .miniblok {
+    width: 90%;
+    height: 150px;
+  }
+  #logo h1 {
+    font-size: 16px;
+  }
+  nav ul li {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  #header-text h2 {
+    font-size: 17px;
+  }
+  #work h3, .header2 h2, #about h2 {
+    font-size: 16px;
+  }
+  .projects {
+    width: 100%;
+  }
+  #logovanje {
+    width: 100%;
+  }
+  #me {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  #about {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  header {
+    left: 1%;
+  }
+  #header-text h2 {
+    font-size: 14px;
+  }
+  #work h3, .header2 h2, #about h2 {
+    font-size: 14px;
+  }
+  #about p {
+    font-size: 10px;
+  }
+  #logovanje input {
+    font-size: 10px;
+  }
+  .social ul li {
+    font-size: 20px;
+  }
+  .social p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
