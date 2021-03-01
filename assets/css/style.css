@@ -286,11 +286,11 @@ nav ul li {
 }
 
 #logovanje {
-  width: 75%;
+  width: 80%;
 }
 
 #ime, #telefon, #mail, #mssg {
-  width: 50%;
+  width: 90%;
   margin-bottom: 15px;
   font-size: 14px;
   font-weight: 700;
