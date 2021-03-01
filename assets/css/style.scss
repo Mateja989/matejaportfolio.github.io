@@ -9,7 +9,7 @@ $svetlija: #9b9fde;
 $bela: #FFF;
 $siva: #e8e8e8;
 $crna: #000;
-$textSlova: 12px;
+$textSlova: 16px;
 @mixin slike{
     background-size: cover;
     background-position:center;
@@ -40,7 +40,7 @@ header, .block, .miniblok {
 }
 #logo {
     h1 {
-      font-size: 24px;
+      font-size: 28px;
     }
   
     i {
@@ -62,7 +62,7 @@ h3 a{
 }
 nav ul li {
     display: inline;
-    font-size: 16px;
+    font-size: 20px;
     margin-right: 20px;
     font-weight: bold;
 }
@@ -88,7 +88,7 @@ nav ul li {
   }
 .header2 h2 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 26px;
     color: $tamnija;
 }
 .center {
@@ -107,7 +107,7 @@ nav ul li {
       margin: 15px;
     }
     h3 {
-      font-size: 20px;
+      font-size: 26px;
       font-weight: 700;
       color: $svetlija;
       margin: 5px;
@@ -126,7 +126,7 @@ nav ul li {
   
     h3 {
       color:  $bela;
-      font-size: 20px;
+      font-size: 26px;
       font-weight: 700;
       text-transform: uppercase;
       margin: 25px;
