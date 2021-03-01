@@ -37,7 +37,7 @@ header, .block, .miniblok {
 }
 
 #logo h1 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 #logo i {
@@ -63,7 +63,7 @@ h3 a {
 
 nav ul li {
   display: inline;
-  font-size: 16px;
+  font-size: 20px;
   margin-right: 20px;
   font-weight: bold;
 }
@@ -94,7 +94,7 @@ nav ul li {
 
 .header2 h2 {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 24px;
   color: #6a68a8;
 }
 
@@ -119,14 +119,14 @@ nav ul li {
 }
 
 .block h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   color: #9b9fde;
   margin: 5px;
 }
 
 .block p {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 20px;
   padding: 10px;
@@ -140,7 +140,7 @@ nav ul li {
 
 #work h3 {
   color: #FFF;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
   margin: 25px;
@@ -148,7 +148,7 @@ nav ul li {
 
 #work p {
   color: #000;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -168,7 +168,7 @@ nav ul li {
 }
 
 .miniblok h4 {
-  font-size: 18px;
+  font-size: 20px;
   color: #9b9fde;
   margin: 10px;
 }
@@ -194,7 +194,7 @@ nav ul li {
 }
 
 #about h2 {
-  font-size: 20px;
+  font-size: 24px;
   color: #9b9fde;
   text-transform: uppercase;
   padding: 20px;
@@ -202,7 +202,7 @@ nav ul li {
 
 #about p {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   padding: 10px;
 }
@@ -261,7 +261,7 @@ nav ul li {
 
 .opis2 {
   color: #FFF;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   font-size: 16px;
   border: 3px solid #6a68a8;
@@ -292,11 +292,11 @@ nav ul li {
 #ime, #telefon, #mail, #mssg {
   width: 50%;
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   padding: 15px;
   border-radius: 15px;
-  border-width: 3px;
+  border-width: 1px;
   border-style: solid;
   border-color: #6a68a8;
   -o-border-image: initial;
@@ -311,8 +311,8 @@ nav ul li {
   width: 30%;
   padding: 10px;
   border-radius: 15px;
-  font-size: 12px;
-  border-width: 3px;
+  font-size: 14px;
+  border-width: 1px;
   border-style: solid;
   border-color: #6a68a8;
 }
